@@ -1,17 +1,21 @@
 <a href="contact_form" class="my-button">add your content</a>
+
 <style>
-    
 .my-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #000000; /* צבע רקע כחול */
-    color:#FFFFFF ; /* צבע טקסט לבן */
+    background-color: #000000; /* כפתור שחור תמיד */
+    color: #ffffff; /* טקסט לבן תמיד */
     text-decoration: none; /* ביטול הקו התחתון של הקישור */
     border-radius: 5px; /* פינות מעוגלות */
     font-weight: bold;
+    font-family: system-ui, -apple-system, sans-serif; /* פונט נקי */
+    transition: opacity 0.2s ease; /* אפקט מעבר חלק לשקיפות */
 }
 
 .my-button:hover {
-    background-color: #000000; /* צבע כהה יותר כאשר העכבר מעל הכפתור */
+    background-color: #000000; /* נשאר שחור */
+    color: #ffffff; /* נשאר לבן */
+    opacity: 0.8; /* אפקט ויזואלי עדין למעבר עכבר */
 }
 </style>
